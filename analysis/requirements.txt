@@ -1,0 +1,2 @@
+jupyterlab==3.0.12
+tensorflow==2.5.0rc2
