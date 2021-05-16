@@ -73,3 +73,13 @@ Start:
     jupyter lab
 
 Note: if Jupyter does not want to start, you may need [to upgrade pip](https://github.com/jupyterlab/jupyterlab/issues/10166)
+
+
+# Starting the prediction server
+
+In Powershell:
+
+    > .\venv\Scripts\activate
+    > $env:FLASK_APP = "predict_server"
+    > flask run --host=0.0.0.0
+

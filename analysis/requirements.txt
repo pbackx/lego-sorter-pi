@@ -1,3 +1,4 @@
+Flask==2.0.0
 jupyterlab==3.0.12
 Keras-Applications==1.0.8
 matplotlib==3.4.2
