@@ -18,7 +18,7 @@ def predict():
     os.makedirs(labeled_dir, exist_ok=True)
 
     filename = datetime.now().strftime("%Y%m%d%H%M%S") + ".jpg"
-    image.save(f'{labeled_dir}\\{filename}')
+    os.rename(temp_file, f'{labeled_dir}\\{filename}')
 
     return {
         "prediction": label
