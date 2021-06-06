@@ -12,7 +12,7 @@ temp_file = 'C:\\dev\\lego-sorter-pi\\data\\tmp\\img.jpg'
 def predict():
     image = request.files['image']
     image.save(temp_file)
-    label = predict_brick.predict(temp_file)
+    label, confidence = predict_brick.predict(temp_file)
 
     labeled_dir = f'{base_dir}\\{label}'
     os.makedirs(labeled_dir, exist_ok=True)
@@ -21,5 +21,6 @@ def predict():
     os.rename(temp_file, f'{labeled_dir}\\{filename}')
 
     return {
-        "prediction": label
+        "prediction": label,
+        "confidence": float(confidence)
     }

@@ -12,9 +12,12 @@ data_dir_labeled = '..\\data\\labeled'
 labels = listdir(data_dir_labeled)
 labels.sort()
 
+
 def predict(filename):
     image = preprocess_lego_image.preprocess(filename)
     vgg16_preprocessed = preprocess_input(np.array([image]))
     prediction = model.predict(vgg16_preprocessed)
     most_likely = np.argmax(prediction)
-    return labels[most_likely]
+    confidence = prediction[0][most_likely]
+    label = labels[most_likely]
+    return label, confidence
