@@ -31,7 +31,7 @@ class MotorControl:
         self.camera_belt.on_for_rotations(self.ev3dev2_motor.SpeedPercent(50), 10)
     
     def tune_turntable(self, amount = -0.1):
-        turntable.on_for_rotations(motor_control.ev3dev2_motor.SpeedPercent(50), amount)
+        self.turntable.on_for_rotations(self.ev3dev2_motor.SpeedPercent(50), amount)
         
     def move_turntable(self, position):
         # convert to degrees
