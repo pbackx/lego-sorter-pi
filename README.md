@@ -1,3 +1,6 @@
+This code is for use with my LEGO sorting machine, which can be found on Rebrickable:
+https://rebrickable.com/mocs/MOC-90902/pbackx/automated-lego-sorting-machine/
+
 First install system dependencies (not sure if these are really needed?)
 
     sudo apt update
