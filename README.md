@@ -1,3 +1,13 @@
+# Automated LEGO sorting machine
+
+![A picture of the built machine, going from left to right: a hopper feeds the bricks into a belt that moves them to a camera, ending up in a wheel consisting of 6 buckets where the sorted bricks are stored](https://raw.githubusercontent.com/pbackx/lego-sorter-pi/main/lego_sorter_overview.jpg "Deep learning automated LEGO sorting machine")
+
+This repository contains the code that is needed to make [my deep learning automated LEGO sorting machine](https://rebrickable.com/mocs/MOC-90902/pbackx/automated-lego-sorting-machine/#details) work. The code is completely free, however, I ask a small contribution for the instructions to build the machine. 
+
+It has been a lot of work and I am currently completely overhauling this repository to make it easier to get started. However, at this point the machine is not plug and play. You will need some knowledge of Linux and Python to get it up and running.
+
+[You can find the MOC model on Rebrickable](https://rebrickable.com/mocs/MOC-90902/pbackx/automated-lego-sorting-machine/#details).
+
 # Introduction
 The software for the sorting machine consists of 3 parts:
 - The EV3 is responsible for the mechanics. It will signal the motors to move the belt and rotate the buckets. It also reads the sensor to find the correct bucket position.
