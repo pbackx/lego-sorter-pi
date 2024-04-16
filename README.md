@@ -24,7 +24,7 @@ I have written these pages in an order that will give you results as soon as pos
 # How to get help
 Keep in mind that setting up the machine is not easy. It requires knowledge of Linux, programming and a bit about AI (deep learning). Most of all, it requires a lot of patience and the willingness to Google if you encounter trouble (or ask ChatGPT, that can also be incredibly helpful).
 
-If you feel this document is not clear or steps are missing, feel free to open [a new discussion](https://github.com/pbackx/lego-sorter-pi/discussions.
+If you feel this document is not clear or steps are missing, feel free to open [a new discussion](https://github.com/pbackx/lego-sorter-pi/discussions).
 
 If you have found an issue or want to improve the code or documentation, you can create an issue or pull request.
 
