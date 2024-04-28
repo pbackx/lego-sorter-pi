@@ -151,7 +151,97 @@ Now start and enable the service:
 
 You can check the status of the service with `sudo systemctl status robot-control`
 
+From now on, you will know that the EV3 is fully started and ready to receive commands when the turntable moves to 
+the first bucket.
+
 # Raspberry Pi (part 1)
 
-Coming soon. I am updating the code to use picamera2 instead of the old and unsupported picamera. 
-This will take some time.
+## Preparation
+
+Now comes the interesting part. In this first step, we are going to generate as many image as possible of LEGO bricks.
+These images will be used to train the deep learning network in the next step.
+
+I would suggest that you start small. Pick about 3 brick types. The more different, the easier. Of each brick type,
+find 5 to 10 samples in your LEGO collection. For the documentation, I chose the following:
+
+- [3023 Plate 1x2](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023)
+- [15712 Tile 1x1 with Open Clip](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15712)
+- [43857 Liftarm Thick 1x2](https://www.bricklink.com/v2/catalog/catalogitem.page?P=43857)
+
+Any bricks will work, there is absolutely no reason to use exactly the same ones.
+
+## Setting up the Raspberry Pi
+
+On the Raspberry Pi, I installed the latest Raspberry Pi OS Lite 64-bit operating system and I gave the Raspberry the `legopi` name.
+
+See the general documentation Raspberry Pi documentation on how to do this, but the [Raspberry Pi Imager](https://www.raspberrypi.org/software/) is the easiest way to get started.
+
+Before you continue, you should have your Pi running and be able to connect to it via SSH. 
+
+As I generally do, I always update the system with `sudo apt update` and `sudo apt upgrade` to make sure the latest software is installed. While this is not strictly necessary, it is good practice.
+
+At this point, you may want to test the camera. The easiest way is to make a picture and start a temporary server:
+
+```
+rpicam-jpeg -o test.jpg
+python -m http.server 8080
+```
+
+On your laptop, you should now be able to view the picture at http://legopi.local:8080/test.jpg
+
+If this does not work, please do not continue. Make this work first.
+
+Now install git and clone this repository:
+
+	sudo apt install git
+	git clone git@github.com:pbackx/lego-sorter-pi.git
+
+For the Python code, we'll need a few dependencies. Generally, I would install these with `pip` but these two libraries
+use hardware functions, so it is usually a better idea to use `apt` for them:
+
+```
+sudo apt install -y gcc python3-dev python3-picamera2 python3-opencv
+```
+
+Note that previous versions of the machine used picamera 1. Although picamera2 is still in beta, it appears the first 
+version is no longer available. If you are interested, full documentation for picamera2 is available as 
+[a giant PDF](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf) (there does not seem to be another format 
+available).
+
+Same as on the EV3, we will work inside a Python virtual environment:
+
+	python3 -m venv --system-site-packages ./lego-sorter-venv
+	source ./lego-sorter-venv/bin/activate
+	pip install -r lego-sorter-pi/pi/requirements.txt
+
+(Note that we include the system packages since this is how picamera2 and opencv were installed)
+
+## Starting Jupyter Lab on the Pi
+
+If you didn't activate the virtual environment yet, do so now:
+
+    source ./lego-sorter-venv/bin/activate
+
+To make it easier to understand and learn about the code, we will perform the next steps in Jupyter Lab:
+
+	jupyter lab --no-browser --ip=*
+
+You can now open Jupyter Lab on your laptop. In the output of this startup process, you'll see a URL that contains a 
+token. Copy the token to the clipboard and open the URL:
+
+http://legopi.local:8888/lab
+
+You will be asked to enter the token and log in.
+
+The next steps will happen in your browser. In the pi folder, you can now go over the first 3 notebooks:
+
+- `01_testing_camera.ipynb` is another test of the camera, but this time from Python code.
+- `02_motor_control.ipynb` is a demonstration of how to control the EV3 motors from the Raspberry Pi over MQTT.
+- `03_taking_pictures.ipynb` is when we actually take pictures of the LEGO bricks.
+
+Run through these 3 notebooks first before continuing with the next section. Ideally, you have about 100 pictures taken
+before continuing, but if you are impatient, less will work too, however, the results will be less accurate.
+
+## Cleaning and Labeling the images
+
+TODO
