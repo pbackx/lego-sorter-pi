@@ -170,6 +170,18 @@ find 5 to 10 samples in your LEGO collection. For the documentation, I chose the
 
 Any bricks will work, there is absolutely no reason to use exactly the same ones.
 
+## Focusing the camera
+
+Getting the right focus can be a bit tricky. Most lenses have two things you can change: focus and aperture. A good start
+is to put the focus all the way to near and play around with aperture.
+
+If you want to have more immediate feedback, the best option is to connect a screen to the Raspberry Pi and use the
+`rpicam-hello` tool. This tool allows you to see the camera feed and change the focus and aperture in real-time.
+
+    rpicam-hello -t 100s
+
+(The 100s parameter will keep the app open for 100 seconds, otherwise it will close after 5s)
+
 ## Setting up the Raspberry Pi
 
 On the Raspberry Pi, I installed the latest Raspberry Pi OS Lite 64-bit operating system and I gave the Raspberry the `legopi` name.
@@ -242,6 +254,41 @@ The next steps will happen in your browser. In the pi folder, you can now go ove
 Run through these 3 notebooks first before continuing with the next section. Ideally, you have about 100 pictures taken
 before continuing, but if you are impatient, less will work too, however, the results will be less accurate.
 
+# Training the model
+
+The next step is using the training data to train a deep learning model. All of this work either happens on your PC 
+or in the cloud. I will assume you have a PC with a decent GPU, but if you don't, you can use Google Colab or another 
+cloud service.
+
 ## Cleaning and Labeling the images
 
-TODO
+First start by copying the images that you have taken on the Raspberry Pi to your PC. You can use `scp` for this:
+
+    scp peter@legopi.local:lego-sorter-pi/data/new/* .\data\new
+
+Inside that folder, create a subfolder for each brick type. The name is not that important. For example this is what
+I used:
+
+    mkdir data\new\3023plate1x2
+    mkdir data\new\15712tile1x1withopenclip
+    mkdir data\new\43857liftarmthick1x2
+
+Now move the images to the correct folder. I like to do this in the Windows file manager, because it allows you to show 
+previews of your photos, so you don't need to open them one by one.
+
+Note that there will be images that are not usable. The part may not be clearly visible or there may be 2 parts on the
+belt. These images should be removed.
+
+Ideally you have about the same number of images for each brick type. If there is a big difference, it is best to run
+just that single type a few times through the machine.
+
+When you are done, move everything into `data/labeled`. The repository contains an example set of my images. You can
+reuse these, or, much better, use your own.
+
+## Configuring the Python environment on your PC
+
+The next step is to install the Python dependencies. I would suggest you do this in a virtual environment:
+
+    python3 -m venv lego-sorter-venv
+    source lego-sorter-venv/bin/activate
+    pip install -r requirements.txt
