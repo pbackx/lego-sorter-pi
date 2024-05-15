@@ -287,8 +287,13 @@ reuse these, or, much better, use your own.
 
 ## Configuring the Python environment on your PC
 
-The next step is to install the Python dependencies. I would suggest you do this in a virtual environment:
+The next step is to configure your environment.
 
-    python3 -m venv lego-sorter-venv
-    source lego-sorter-venv/bin/activate
-    pip install -r requirements.txt
+To get everything up and running you will want to install the following, Google for specific steps for your operating 
+system:
+- (Windows only) Install WSL2 and your preferred Linux distribution.
+- Install NVida CUDA and cuDNN.
+- Install Docker
+- Test everything
+- Build the provided Docker image
+
