@@ -1,14 +1,11 @@
-import cv2 as cv
 from keras.models import load_model
-from matplotlib import pyplot as plt
 import numpy as np
 import preprocess_lego_image
 from os import listdir
 from tensorflow.keras.applications.vgg16 import preprocess_input
-import tensorflow as tf
 
-model = load_model('model')
-data_dir_labeled = '..\\data\\labeled'
+model = load_model('model.keras')
+data_dir_labeled = '/data/labeled'
 labels = listdir(data_dir_labeled)
 labels.sort()
 

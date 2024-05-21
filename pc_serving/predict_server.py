@@ -5,7 +5,7 @@ from flask import Flask, request
 import predict_brick
 
 app = Flask(__name__)
-base_dir = 'C:\\dev\\lego-sorter-pi\\data\\new'
+base_dir = '/data/new'
 temp_file = 'C:\\dev\\lego-sorter-pi\\data\\tmp\\img.jpg'
 
 @app.route("/predict", methods=['POST'])

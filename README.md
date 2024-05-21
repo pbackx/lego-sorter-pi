@@ -287,13 +287,58 @@ reuse these, or, much better, use your own.
 
 ## Configuring the Python environment on your PC
 
-The next step is to configure your environment.
+The next step is to configure your environment. Ideally, you have an Nvidia GPU in your PC.
 
 To get everything up and running you will want to install the following, Google for specific steps for your operating 
 system:
 - (Windows only) Install WSL2 and your preferred Linux distribution.
 - Install NVida CUDA and cuDNN.
 - Install Docker
-- Test everything
-- Build the provided Docker image
 
+With these items installed, a simple test to see if the Cuda drivers are correctly configured is to run 
+
+    nvidia-smi
+
+This should show you the status of your GPU.
+
+Next we will check if Docker is correctly installed:
+
+    docker run hello-world
+
+Finally, we need to verify if Docker can access the GPU. Run the following command:
+
+    docker run --rm --gpus all tensorflow/tensorflow:2.16.1-gpu-jupyter nvidia-smi
+
+As before, you should see your GPU listed. You will not see any processes running (as you may have seen when you
+initially ran `nvidia-smi`, because the container does not have access to the host's processes.
+
+## Launching the training environment
+
+With these steps completed, you can now start the training environment:
+
+    cd pc_training
+    docker compose build
+    docker compose up
+
+This will start a Jupyter Lab environment on your PC. You can access it by copying the link that is shown in the output
+of the command. It will look something like this:
+
+     http://127.0.0.1:8888/lab?token=...
+
+You can now open the `01_train_model.ipynb` notebook and run through the steps. This will show a basic example of
+applying transfer learning to the data you have collected.
+
+## Running the prediction server
+
+Now that we have trained the model, it is time to make the model available to the Raspberry Pi that is controlling the
+machine. We will do this through a small Flask server that expose a simple REST API.
+
+First copy the model to the pc_serving folder, so we have a backup and don't have to worry about the model being overwritten:
+    
+    cp pc_training/model.keras pc_serving/model.keras
+
+Now build and start the server:
+
+    cd pc_serving
+
+TODO
