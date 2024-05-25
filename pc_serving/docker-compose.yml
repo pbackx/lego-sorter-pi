@@ -1,9 +1,12 @@
 services:
-  tensorflow-jupyter:
-    build: .
-#    user: "1000:1000"
+  lego-sorter-service:
+    build:
+      context: ..
+      dockerfile: ./pc_serving/Dockerfile
+    volumes:
+      - ../data/new:/new_pictures
     ports:
-      - "5000:5000"
+      - "8000:8000"
     deploy:
       # https://docs.docker.com/compose/gpu-support/
       resources:

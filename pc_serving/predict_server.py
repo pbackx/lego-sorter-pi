@@ -1,24 +1,18 @@
 import os
-from datetime import datetime
-
-from flask import Flask, request
 import predict_brick
+import shutil
+from fastapi import FastAPI, UploadFile, File
 
-app = Flask(__name__)
-base_dir = '/data/new'
-temp_file = 'C:\\dev\\lego-sorter-pi\\data\\tmp\\img.jpg'
+app = FastAPI()
+temp_folder = "/new_pictures"
 
-@app.route("/predict", methods=['POST'])
-def predict():
-    image = request.files['image']
-    image.save(temp_file)
-    label, confidence = predict_brick.predict(temp_file)
+@app.post("/predict")
+def predict(image: UploadFile = File(...)):
+    image_file = os.path.join(temp_folder, image.filename)
+    with open(image_file, "wb") as buffer:
+        shutil.copyfileobj(image.file, buffer)
 
-    labeled_dir = f'{base_dir}\\{label}'
-    os.makedirs(labeled_dir, exist_ok=True)
-
-    filename = datetime.now().strftime("%Y%m%d%H%M%S") + ".jpg"
-    os.rename(temp_file, f'{labeled_dir}\\{filename}')
+    label, confidence = predict_brick.predict(image_file)
 
     return {
         "prediction": label,

@@ -340,5 +340,31 @@ First copy the model to the pc_serving folder, so we have a backup and don't hav
 Now build and start the server:
 
     cd pc_serving
+    docker compose build
+    docker compose up
 
-TODO
+You can now go to the server documentation at http://localhost:8000/docs#/default/predict_predict_post
+
+On this page, you can test out the server by selecting one of your images and clicking the "Execute" button.
+
+# Raspberry Pi (part 2)
+
+Now we are finally at the point where we can bring everything together and have the machine automatically sort bricks.
+
+Make sure that:
+
+- The EV3 is running and has correctly positioned the buckets.
+- The prediction server on your PC is running.
+
+SSh into the Raspberry Pi and start Jupyter Lab:
+
+    source ./lego-sorter-venv/bin/activate
+    jupyter lab --no-browser --ip=*
+
+Go to http://legopi.local:8888/lab and open the `04_sorting_bricks.ipynb` notebook and run through the steps.
+
+# Conclusion
+
+You should now have a fully functioning sorting machine. You can now start processing as many bricks as you can.
+Every time you do, you will generate new input data for the training algorithm, so be sure to redo the training 
+from time to time. 
