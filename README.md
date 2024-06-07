@@ -6,7 +6,9 @@ This repository contains the code that is needed to make [my deep learning autom
 
 It has been a lot of work and I am currently completely overhauling this repository to make it easier to get started. However, at this point the machine is not plug and play. You will need some knowledge of Linux and Python to get it up and running.
 
-[You can find the MOC model on Rebrickable](https://rebrickable.com/mocs/MOC-90902/pbackx/automated-lego-sorting-machine/#details).
+Important links:
+- [You can find the MOC model on Rebrickable](https://rebrickable.com/mocs/MOC-90902/pbackx/automated-lego-sorting-machine/#details).
+- [I continuously improve and try new things. Sign up here if you want to receive updates by e-mail.](https://subscribepage.io/sorting-updates)
 
 # Introduction
 The software for the sorting machine consists of 3 parts:
