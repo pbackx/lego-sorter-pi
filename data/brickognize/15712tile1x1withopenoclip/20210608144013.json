@@ -1,0 +1,112 @@
+{
+  "listing_id": "6ed5659547cb",
+  "bounding_box": {
+    "left": 239.64085388183594,
+    "upper": 384.8313903808594,
+    "right": 348.9045715332031,
+    "lower": 479.9888610839844,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6556814312934875
+  },
+  "items": [
+    {
+      "id": "3024",
+      "name": "Plate 1 x 1",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3024/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3024"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.7408617734909058
+    },
+    {
+      "id": "2555",
+      "name": "Tile, Modified 1 x 1 with Clip",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/2555/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=2555"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.7331876754760742
+    },
+    {
+      "id": "6231",
+      "name": "Panel 1 x 1 x 1 Corner",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/6231/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=6231"
+        }
+      ],
+      "category": "Panel",
+      "type": "part",
+      "score": 0.7253379821777344
+    },
+    {
+      "id": "15712",
+      "name": "Tile, Modified 1 x 1 with Open O Clip",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/15712/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=15712"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.7204837799072266
+    },
+    {
+      "id": "3070a",
+      "name": "Tile 1 x 1 without Groove",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3070a/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3070a"
+        }
+      ],
+      "category": "Tile",
+      "type": "part",
+      "score": 0.7163457274436951
+    },
+    {
+      "id": "49307",
+      "name": "Slope, Curved 1 x 1 x 2/3 Double",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/49307/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=49307"
+        }
+      ],
+      "category": "Slope, Curved",
+      "type": "part",
+      "score": 0.5918101072311401
+    },
+    {
+      "id": "3070",
+      "name": "Tile 1 x 1",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3070/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3070"
+        }
+      ],
+      "category": "Tile",
+      "type": "part",
+      "score": 0.5891098976135254
+    }
+  ]
+}

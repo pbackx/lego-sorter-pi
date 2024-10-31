@@ -1,0 +1,70 @@
+{
+  "listing_id": "c87360c62c06",
+  "bounding_box": {
+    "left": 86.17217254638672,
+    "upper": 359.5904541015625,
+    "right": 272.69927978515625,
+    "lower": 479.9638671875,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6492420434951782
+  },
+  "items": [
+    {
+      "id": "43857",
+      "name": "Technic, Liftarm Thick 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/43857/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=43857"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.8604397773742676
+    },
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.7289455533027649
+    },
+    {
+      "id": "2900",
+      "name": "Technic, Flex Cable End, Pin Connection (Square End)",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/2900/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=2900"
+        }
+      ],
+      "category": "Technic, Flex Cable",
+      "type": "part",
+      "score": 0.6079974174499512
+    },
+    {
+      "id": "18654",
+      "name": "Technic, Liftarm Thick 1 x 1 (Spacer)",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/18654/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=18654"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5329356789588928
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "listing_id": "784a3540ec1b",
+  "bounding_box": {
+    "left": 411.43115234375,
+    "upper": 80.2935791015625,
+    "right": 573.2260131835938,
+    "lower": 270.6368408203125,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6504510641098022
+  },
+  "items": [
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.9263705015182495
+    },
+    {
+      "id": "3023pb02",
+      "name": "Plate 1 x 2 with Gold Pattern on Long Edge",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023pb02/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023pb02"
+        }
+      ],
+      "category": "Plate, Decorated",
+      "type": "part",
+      "score": 0.9053988456726074
+    },
+    {
+      "id": "27glass",
+      "name": "Glass for Window 1 x 2 x 1",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/27glass/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=27glass"
+        }
+      ],
+      "category": "Window, Glass & Shutter",
+      "type": "part",
+      "score": 0.854080080986023
+    }
+  ]
+}

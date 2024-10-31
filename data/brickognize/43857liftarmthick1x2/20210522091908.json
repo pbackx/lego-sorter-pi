@@ -1,0 +1,56 @@
+{
+  "listing_id": "bdf7681ea71a",
+  "bounding_box": {
+    "left": 238.19772338867188,
+    "upper": 148.6359100341797,
+    "right": 424.82635498046875,
+    "lower": 332.29217529296875,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.7007273435592651
+  },
+  "items": [
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.7491791248321533
+    },
+    {
+      "id": "32523",
+      "name": "Technic, Liftarm Thick 1 x 3",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32523/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.7300068736076355
+    },
+    {
+      "id": "63869",
+      "name": "Technic, Axle and Pin Connector Perpendicular Triple",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/63869/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=63869"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.6891061067581177
+    }
+  ]
+}

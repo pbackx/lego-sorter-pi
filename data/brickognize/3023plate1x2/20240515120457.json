@@ -1,0 +1,13 @@
+{
+  "listing_id": "ca2465c20c7f",
+  "bounding_box": {
+    "left": 0.0,
+    "upper": 23.712615966796875,
+    "right": 639.3828735351562,
+    "lower": 477.79248046875,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6456437110900879
+  },
+  "items": []
+}

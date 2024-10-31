@@ -1,0 +1,42 @@
+{
+  "listing_id": "9bc36e404fd1",
+  "bounding_box": {
+    "left": 292.98992919921875,
+    "upper": 177.4376220703125,
+    "right": 396.983642578125,
+    "lower": 391.0425109863281,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6970610618591309
+  },
+  "items": [
+    {
+      "id": "32523",
+      "name": "Technic, Liftarm Thick 1 x 3",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32523/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5845673084259033
+    },
+    {
+      "id": "65753",
+      "name": "Minifigure Skirt Plastic Straight, Short",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/65753/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=65753"
+        }
+      ],
+      "category": "Minifigure, Body Wear",
+      "type": "part",
+      "score": 0.506606936454773
+    }
+  ]
+}

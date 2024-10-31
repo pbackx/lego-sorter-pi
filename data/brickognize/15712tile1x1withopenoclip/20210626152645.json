@@ -1,0 +1,98 @@
+{
+  "listing_id": "31e599d5a474",
+  "bounding_box": {
+    "left": 235.23089599609375,
+    "upper": 388.7152404785156,
+    "right": 356.21240234375,
+    "lower": 480.0,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.7035706639289856
+  },
+  "items": [
+    {
+      "id": "6231",
+      "name": "Panel 1 x 1 x 1 Corner",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/6231/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=6231"
+        }
+      ],
+      "category": "Panel",
+      "type": "part",
+      "score": 0.8494234085083008
+    },
+    {
+      "id": "15712",
+      "name": "Tile, Modified 1 x 1 with Open O Clip",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/15712/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=15712"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.6718087792396545
+    },
+    {
+      "id": "3024",
+      "name": "Plate 1 x 1",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3024/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3024"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.6649553775787354
+    },
+    {
+      "id": "2555",
+      "name": "Tile, Modified 1 x 1 with Clip",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/2555/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=2555"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.6583958864212036
+    },
+    {
+      "id": "93095",
+      "name": "Panel 1 x 2 x 1 with Rounded Corners and Center Divider",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/93095/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=93095"
+        }
+      ],
+      "category": "Panel",
+      "type": "part",
+      "score": 0.6581816673278809
+    },
+    {
+      "id": "3070a",
+      "name": "Tile 1 x 1 without Groove",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3070a/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3070a"
+        }
+      ],
+      "category": "Tile",
+      "type": "part",
+      "score": 0.6244169473648071
+    }
+  ]
+}

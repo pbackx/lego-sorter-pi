@@ -1,0 +1,28 @@
+{
+  "listing_id": "c6dda713c1b7",
+  "bounding_box": {
+    "left": 167.95327758789062,
+    "upper": 271.2783203125,
+    "right": 308.31341552734375,
+    "lower": 470.24139404296875,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6937060952186584
+  },
+  "items": [
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.6009355783462524
+    }
+  ]
+}

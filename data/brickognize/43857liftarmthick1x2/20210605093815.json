@@ -1,0 +1,56 @@
+{
+  "listing_id": "70db6ae60c13",
+  "bounding_box": {
+    "left": 223.25180053710938,
+    "upper": 50.472442626953125,
+    "right": 381.6867370605469,
+    "lower": 239.7218475341797,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6680930852890015
+  },
+  "items": [
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.572959303855896
+    },
+    {
+      "id": "2447",
+      "name": "Minifigure, Visor Standard",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/2447/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=2447"
+        }
+      ],
+      "category": "Minifigure, Headgear Accessory",
+      "type": "part",
+      "score": 0.5460636019706726
+    },
+    {
+      "id": "63869",
+      "name": "Technic, Axle and Pin Connector Perpendicular Triple",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/63869/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=63869"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.5328618288040161
+    }
+  ]
+}

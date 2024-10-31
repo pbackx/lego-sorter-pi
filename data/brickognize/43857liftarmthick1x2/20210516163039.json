@@ -1,0 +1,70 @@
+{
+  "listing_id": "5937fb2e2879",
+  "bounding_box": {
+    "left": 230.5002899169922,
+    "upper": 350.9051513671875,
+    "right": 393.0228271484375,
+    "lower": 479.90704345703125,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6658157110214233
+  },
+  "items": [
+    {
+      "id": "43857",
+      "name": "Technic, Liftarm Thick 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/43857/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=43857"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.9602878093719482
+    },
+    {
+      "id": "44809",
+      "name": "Technic, Pin Connector Perpendicular 2 x 2 Bent",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/44809/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=44809"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.7353512048721313
+    },
+    {
+      "id": "32175",
+      "name": "Technic, Pin Connector 3 x 3 with Axle and 3 Pin Holes",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32175/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32175"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.709928572177887
+    },
+    {
+      "id": "32523",
+      "name": "Technic, Liftarm Thick 1 x 3",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32523/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5571098923683167
+    }
+  ]
+}

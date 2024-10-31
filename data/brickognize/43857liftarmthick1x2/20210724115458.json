@@ -1,0 +1,84 @@
+{
+  "listing_id": "0cb9764c1bc7",
+  "bounding_box": {
+    "left": 228.26275634765625,
+    "upper": 67.72517395019531,
+    "right": 337.1412353515625,
+    "lower": 231.14862060546875,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.646977424621582
+  },
+  "items": [
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.7146538496017456
+    },
+    {
+      "id": "63869",
+      "name": "Technic, Axle and Pin Connector Perpendicular Triple",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/63869/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=63869"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.59230637550354
+    },
+    {
+      "id": "32523",
+      "name": "Technic, Liftarm Thick 1 x 3",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32523/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5528035163879395
+    },
+    {
+      "id": "41677",
+      "name": "Technic, Liftarm Thin 1 x 2 - Axle Holes",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/41677/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=41677"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5341366529464722
+    },
+    {
+      "id": "30028",
+      "name": "Tire 14mm D. x 9mm Smooth Small Wide Slick",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/30028/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=30028"
+        }
+      ],
+      "category": "Wheel, Tire & Tread",
+      "type": "part",
+      "score": 0.5019580721855164
+    }
+  ]
+}

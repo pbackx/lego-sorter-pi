@@ -1,0 +1,28 @@
+{
+  "listing_id": "1fef1a6849e9",
+  "bounding_box": {
+    "left": 0.5876922607421875,
+    "upper": 0.29869842529296875,
+    "right": 639.8375244140625,
+    "lower": 159.30067443847656,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6220264434814453
+  },
+  "items": [
+    {
+      "id": "4592c01",
+      "name": "Antenna Small Base with Yellow Lever (4592 / 4593)",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/4592c01/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=4592c01"
+        }
+      ],
+      "category": "Antenna",
+      "type": "part",
+      "score": 0.5104216933250427
+    }
+  ]
+}

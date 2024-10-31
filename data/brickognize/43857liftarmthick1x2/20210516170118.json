@@ -1,0 +1,98 @@
+{
+  "listing_id": "042f93d9357a",
+  "bounding_box": {
+    "left": 264.40411376953125,
+    "upper": 399.2427673339844,
+    "right": 440.3458251953125,
+    "lower": 479.2827453613281,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6848717927932739
+  },
+  "items": [
+    {
+      "id": "43857",
+      "name": "Technic, Liftarm Thick 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/43857/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=43857"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.8514699935913086
+    },
+    {
+      "id": "44809",
+      "name": "Technic, Pin Connector Perpendicular 2 x 2 Bent",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/44809/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=44809"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.6605218648910522
+    },
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.6176719665527344
+    },
+    {
+      "id": "63869",
+      "name": "Technic, Axle and Pin Connector Perpendicular Triple",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/63869/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=63869"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.5649915337562561
+    },
+    {
+      "id": "85940",
+      "name": "Technic, Liftarm, Modified Bar 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/85940/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=85940"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5147822499275208
+    },
+    {
+      "id": "2900",
+      "name": "Technic, Flex Cable End, Pin Connection (Square End)",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/2900/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=2900"
+        }
+      ],
+      "category": "Technic, Flex Cable",
+      "type": "part",
+      "score": 0.5084361433982849
+    }
+  ]
+}

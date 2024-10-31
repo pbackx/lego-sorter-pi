@@ -1,0 +1,70 @@
+{
+  "listing_id": "0f8ea89f805d",
+  "bounding_box": {
+    "left": 235.6543426513672,
+    "upper": 69.02552032470703,
+    "right": 382.1335754394531,
+    "lower": 246.28375244140625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.7018303275108337
+  },
+  "items": [
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.7324246764183044
+    },
+    {
+      "id": "3023old",
+      "name": "Plate 1 x 2 with Flat Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.6964983344078064
+    },
+    {
+      "id": "92946",
+      "name": "Slope 45 2 x 1 with 2/3 Cutout",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/92946/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=92946"
+        }
+      ],
+      "category": "Slope",
+      "type": "part",
+      "score": 0.6390706300735474
+    },
+    {
+      "id": "3023old2",
+      "name": "Plate 1 x 2 without Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old2/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old2"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.6151478290557861
+    }
+  ]
+}

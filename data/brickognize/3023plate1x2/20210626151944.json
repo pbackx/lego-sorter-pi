@@ -1,0 +1,98 @@
+{
+  "listing_id": "f6925bdeb4ee",
+  "bounding_box": {
+    "left": 0.47481536865234375,
+    "upper": 351.7064208984375,
+    "right": 171.5867462158203,
+    "lower": 479.8706970214844,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6854256987571716
+  },
+  "items": [
+    {
+      "id": "15209",
+      "name": "Tile, Modified 1 x 2 with 2 Teeth Vertical",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/15209/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=15209"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.7361593842506409
+    },
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.6934853792190552
+    },
+    {
+      "id": "3829c01",
+      "name": "Vehicle, Steering Stand 1 x 2 with Black Steering Wheel",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3829c01/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3829c01"
+        }
+      ],
+      "category": "Vehicle",
+      "type": "part",
+      "score": 0.6785563230514526
+    },
+    {
+      "id": "3794a",
+      "name": "Plate, Modified 1 x 2 with 1 Stud without Groove (Jumper)",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3794a/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3794a"
+        }
+      ],
+      "category": "Plate, Modified",
+      "type": "part",
+      "score": 0.6367369294166565
+    },
+    {
+      "id": "24445",
+      "name": "Tile, Modified 1 x 2 with Minifigure Head Post",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/24445/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=24445"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.6083197593688965
+    },
+    {
+      "id": "92280",
+      "name": "Plate, Modified 1 x 2 with Clip with Center Cut on Top",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/92280/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=92280"
+        }
+      ],
+      "category": "Plate, Modified",
+      "type": "part",
+      "score": 0.6036989092826843
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "listing_id": "1006bbb0d50e",
+  "bounding_box": {
+    "left": 223.63516235351562,
+    "upper": 411.6416015625,
+    "right": 400.833251953125,
+    "lower": 479.9759216308594,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6752718687057495
+  },
+  "items": [
+    {
+      "id": "23950",
+      "name": "Panel 1 x 3 x 1",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/23950/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=23950"
+        }
+      ],
+      "category": "Panel",
+      "type": "part",
+      "score": 0.5805394649505615
+    },
+    {
+      "id": "44300",
+      "name": "Hinge Tile 1 x 3 Locking with 1 Finger on Top",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/44300/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=44300"
+        }
+      ],
+      "category": "Hinge",
+      "type": "part",
+      "score": 0.5773789882659912
+    },
+    {
+      "id": "3623",
+      "name": "Plate 1 x 3",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3623/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3623"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.5445166826248169
+    },
+    {
+      "id": "3038",
+      "name": "Slope 45 2 x 3",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3038/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3038"
+        }
+      ],
+      "category": "Slope",
+      "type": "part",
+      "score": 0.5278406143188477
+    },
+    {
+      "id": "79987",
+      "name": "Plate, Modified 1 x 3 with 2 Open O Clips on Top",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/79987/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=79987"
+        }
+      ],
+      "category": "Plate, Modified",
+      "type": "part",
+      "score": 0.527735710144043
+    },
+    {
+      "id": "3039",
+      "name": "Slope 45 2 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3039/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3039"
+        }
+      ],
+      "category": "Slope",
+      "type": "part",
+      "score": 0.5053755044937134
+    }
+  ]
+}

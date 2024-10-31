@@ -1,0 +1,84 @@
+{
+  "listing_id": "104fc7e332fa",
+  "bounding_box": {
+    "left": 60.97270965576172,
+    "upper": 223.05325317382812,
+    "right": 236.65560913085938,
+    "lower": 335.13507080078125,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6858904957771301
+  },
+  "items": [
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.772122323513031
+    },
+    {
+      "id": "32523",
+      "name": "Technic, Liftarm Thick 1 x 3",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32523/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5979029536247253
+    },
+    {
+      "id": "6632",
+      "name": "Technic, Liftarm Thin 1 x 3 - Axle Holes",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/6632/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=6632"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5730926990509033
+    },
+    {
+      "id": "63869",
+      "name": "Technic, Axle and Pin Connector Perpendicular Triple",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/63869/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=63869"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.5551989078521729
+    },
+    {
+      "id": "41677",
+      "name": "Technic, Liftarm Thin 1 x 2 - Axle Holes",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/41677/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=41677"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5205255746841431
+    }
+  ]
+}

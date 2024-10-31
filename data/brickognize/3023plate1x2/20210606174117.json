@@ -1,0 +1,84 @@
+{
+  "listing_id": "8050c7122d43",
+  "bounding_box": {
+    "left": 445.7895812988281,
+    "upper": 369.05987548828125,
+    "right": 639.2657470703125,
+    "lower": 476.1451416015625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6389420628547668
+  },
+  "items": [
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.8907216787338257
+    },
+    {
+      "id": "3023old",
+      "name": "Plate 1 x 2 with Flat Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.8508049845695496
+    },
+    {
+      "id": "3023old2",
+      "name": "Plate 1 x 2 without Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old2/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old2"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.8409608602523804
+    },
+    {
+      "id": "27glass",
+      "name": "Glass for Window 1 x 2 x 1",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/27glass/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=27glass"
+        }
+      ],
+      "category": "Window, Glass & Shutter",
+      "type": "part",
+      "score": 0.8192138671875
+    },
+    {
+      "id": "3023pb02",
+      "name": "Plate 1 x 2 with Gold Pattern on Long Edge",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023pb02/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023pb02"
+        }
+      ],
+      "category": "Plate, Decorated",
+      "type": "part",
+      "score": 0.8043588399887085
+    }
+  ]
+}

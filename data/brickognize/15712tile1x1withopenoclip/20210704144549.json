@@ -1,0 +1,28 @@
+{
+  "listing_id": "81eabebda3ca",
+  "bounding_box": {
+    "left": 253.871826171875,
+    "upper": 0.3083305358886719,
+    "right": 639.6422729492188,
+    "lower": 159.65478515625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6016998291015625
+  },
+  "items": [
+    {
+      "id": "69c01",
+      "name": "Tap 1 x 2 Base with Light Gray Spout (69 / 70)",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/69c01/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=69c01"
+        }
+      ],
+      "category": "Tap",
+      "type": "part",
+      "score": 0.5185413360595703
+    }
+  ]
+}

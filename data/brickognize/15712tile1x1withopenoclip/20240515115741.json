@@ -1,0 +1,13 @@
+{
+  "listing_id": "f4a0241f15b4",
+  "bounding_box": {
+    "left": 0.12432861328125,
+    "upper": 7.3008575439453125,
+    "right": 639.948486328125,
+    "lower": 480.0,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6583684086799622
+  },
+  "items": []
+}

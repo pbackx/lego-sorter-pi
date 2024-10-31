@@ -1,2 +1,4 @@
-opencv-python==4.9.0.80
+opencv-python==4.10.0.84
 pandas==2.2.2
+pyrate-limiter==3.7.0
+tqdm==4.66.6

@@ -1,0 +1,56 @@
+{
+  "listing_id": "84bb686fdd1c",
+  "bounding_box": {
+    "left": 296.580810546875,
+    "upper": 374.796142578125,
+    "right": 479.3388366699219,
+    "lower": 480.0,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6721156239509583
+  },
+  "items": [
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.834197998046875
+    },
+    {
+      "id": "3023old",
+      "name": "Plate 1 x 2 with Flat Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.7986790537834167
+    },
+    {
+      "id": "44861",
+      "name": "Plate, Modified 1 x 2 with Open O Clip on Top",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/44861/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=44861"
+        }
+      ],
+      "category": "Plate, Modified",
+      "type": "part",
+      "score": 0.7641401290893555
+    }
+  ]
+}

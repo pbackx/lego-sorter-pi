@@ -1,0 +1,13 @@
+{
+  "listing_id": "76478fd95fc1",
+  "bounding_box": {
+    "left": 0.232086181640625,
+    "upper": 0.294708251953125,
+    "right": 640.0,
+    "lower": 363.13525390625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6178774237632751
+  },
+  "items": []
+}

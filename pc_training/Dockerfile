@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.16.1-gpu-jupyter
+FROM tensorflow/tensorflow:2.18.0-gpu-jupyter
 
 # Update the package list, install wget, and clean up
 RUN apt-get update && \

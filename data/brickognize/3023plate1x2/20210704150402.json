@@ -1,0 +1,140 @@
+{
+  "listing_id": "652d9e70978e",
+  "bounding_box": {
+    "left": 25.793197631835938,
+    "upper": 49.853729248046875,
+    "right": 201.513427734375,
+    "lower": 201.56533813476562,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6549606919288635
+  },
+  "items": [
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.8127383589744568
+    },
+    {
+      "id": "15209",
+      "name": "Tile, Modified 1 x 2 with 2 Teeth Vertical",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/15209/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=15209"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.799171507358551
+    },
+    {
+      "id": "27glass",
+      "name": "Glass for Window 1 x 2 x 1",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/27glass/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=27glass"
+        }
+      ],
+      "category": "Window, Glass & Shutter",
+      "type": "part",
+      "score": 0.6961178183555603
+    },
+    {
+      "id": "3794a",
+      "name": "Plate, Modified 1 x 2 with 1 Stud without Groove (Jumper)",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3794a/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3794a"
+        }
+      ],
+      "category": "Plate, Modified",
+      "type": "part",
+      "score": 0.6807073950767517
+    },
+    {
+      "id": "4755",
+      "name": "Electric Plate 1 x 2 with Contacts",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/4755/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=4755"
+        }
+      ],
+      "category": "Electric",
+      "type": "part",
+      "score": 0.6779992580413818
+    },
+    {
+      "id": "3023pb02",
+      "name": "Plate 1 x 2 with Gold Pattern on Long Edge",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023pb02/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023pb02"
+        }
+      ],
+      "category": "Plate, Decorated",
+      "type": "part",
+      "score": 0.6544047594070435
+    },
+    {
+      "id": "3023old",
+      "name": "Plate 1 x 2 with Flat Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.6511964797973633
+    },
+    {
+      "id": "24445",
+      "name": "Tile, Modified 1 x 2 with Minifigure Head Post",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/24445/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=24445"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.6426767110824585
+    },
+    {
+      "id": "3023old2",
+      "name": "Plate 1 x 2 without Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old2/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old2"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.6214532852172852
+    }
+  ]
+}

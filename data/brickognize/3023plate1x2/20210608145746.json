@@ -1,0 +1,42 @@
+{
+  "listing_id": "9ef9ae1bc33c",
+  "bounding_box": {
+    "left": 87.94397735595703,
+    "upper": 90.39646911621094,
+    "right": 263.51080322265625,
+    "lower": 193.11209106445312,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6822056174278259
+  },
+  "items": [
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.9701520800590515
+    },
+    {
+      "id": "3023old2",
+      "name": "Plate 1 x 2 without Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old2/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old2"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.9344201683998108
+    }
+  ]
+}

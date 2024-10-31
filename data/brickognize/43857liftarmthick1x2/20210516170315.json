@@ -1,0 +1,84 @@
+{
+  "listing_id": "a2d440024aad",
+  "bounding_box": {
+    "left": 187.567626953125,
+    "upper": 321.1675109863281,
+    "right": 294.57879638671875,
+    "lower": 480.0,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6919153332710266
+  },
+  "items": [
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.8143601417541504
+    },
+    {
+      "id": "6536",
+      "name": "Technic, Axle and Pin Connector Perpendicular",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/6536/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=6536"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.5719014406204224
+    },
+    {
+      "id": "6632",
+      "name": "Technic, Liftarm Thin 1 x 3 - Axle Holes",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/6632/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=6632"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5332508683204651
+    },
+    {
+      "id": "63869",
+      "name": "Technic, Axle and Pin Connector Perpendicular Triple",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/63869/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=63869"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.5179283022880554
+    },
+    {
+      "id": "11458",
+      "name": "Plate, Modified 1 x 2 with Pin Hole on Top",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/11458/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=11458"
+        }
+      ],
+      "category": "Plate, Modified",
+      "type": "part",
+      "score": 0.504116415977478
+    }
+  ]
+}

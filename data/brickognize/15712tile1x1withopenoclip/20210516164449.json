@@ -1,0 +1,70 @@
+{
+  "listing_id": "17348d5dcbbb",
+  "bounding_box": {
+    "left": 292.26007080078125,
+    "upper": 389.6427917480469,
+    "right": 391.58758544921875,
+    "lower": 475.681884765625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6363165378570557
+  },
+  "items": [
+    {
+      "id": "49307",
+      "name": "Slope, Curved 1 x 1 x 2/3 Double",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/49307/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=49307"
+        }
+      ],
+      "category": "Slope, Curved",
+      "type": "part",
+      "score": 0.7176095843315125
+    },
+    {
+      "id": "2432",
+      "name": "Tile, Modified 1 x 2 with Bar Handle",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/2432/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=2432"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.5648527145385742
+    },
+    {
+      "id": "35463",
+      "name": "Tile, Modified 1 x 1 with Tooth / Ear Vertical, Triangular",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/35463/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=35463"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.5612728595733643
+    },
+    {
+      "id": "6231",
+      "name": "Panel 1 x 1 x 1 Corner",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/6231/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=6231"
+        }
+      ],
+      "category": "Panel",
+      "type": "part",
+      "score": 0.5568519234657288
+    }
+  ]
+}

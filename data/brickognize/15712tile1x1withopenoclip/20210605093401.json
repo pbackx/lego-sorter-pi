@@ -1,0 +1,28 @@
+{
+  "listing_id": "d2daa2d014f3",
+  "bounding_box": {
+    "left": 207.32522583007812,
+    "upper": 350.0566711425781,
+    "right": 328.040283203125,
+    "lower": 476.86798095703125,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6885408759117126
+  },
+  "items": [
+    {
+      "id": "15712",
+      "name": "Tile, Modified 1 x 1 with Open O Clip",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/15712/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=15712"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.9782059192657471
+    }
+  ]
+}

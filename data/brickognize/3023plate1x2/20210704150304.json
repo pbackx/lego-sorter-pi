@@ -1,0 +1,28 @@
+{
+  "listing_id": "e87797298f14",
+  "bounding_box": {
+    "left": 238.14578247070312,
+    "upper": 169.24461364746094,
+    "right": 407.4675598144531,
+    "lower": 380.96295166015625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.7126659154891968
+  },
+  "items": [
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.9740760922431946
+    }
+  ]
+}

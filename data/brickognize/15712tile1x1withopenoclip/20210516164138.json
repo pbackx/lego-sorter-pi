@@ -1,0 +1,28 @@
+{
+  "listing_id": "c3f0b0109383",
+  "bounding_box": {
+    "left": 281.6011962890625,
+    "upper": 390.73614501953125,
+    "right": 381.1616516113281,
+    "lower": 479.9869689941406,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6838093400001526
+  },
+  "items": [
+    {
+      "id": "2555",
+      "name": "Tile, Modified 1 x 1 with Clip",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/2555/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=2555"
+        }
+      ],
+      "category": "Tile, Modified",
+      "type": "part",
+      "score": 0.9430148601531982
+    }
+  ]
+}

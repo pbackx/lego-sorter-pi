@@ -1,0 +1,70 @@
+{
+  "listing_id": "7175fba969a5",
+  "bounding_box": {
+    "left": 185.20272827148438,
+    "upper": 323.1939392089844,
+    "right": 288.7933044433594,
+    "lower": 478.7027587890625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6588969230651855
+  },
+  "items": [
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.7457991242408752
+    },
+    {
+      "id": "6091",
+      "name": "Slope, Curved 2 x 1 x 1 1/3 with Recessed Stud",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/6091/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=6091"
+        }
+      ],
+      "category": "Slope, Curved",
+      "type": "part",
+      "score": 0.5564088821411133
+    },
+    {
+      "id": "6632",
+      "name": "Technic, Liftarm Thin 1 x 3 - Axle Holes",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/6632/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=6632"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5460573434829712
+    },
+    {
+      "id": "37352",
+      "name": "Slope, Curved 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/37352/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=37352"
+        }
+      ],
+      "category": "Slope, Curved",
+      "type": "part",
+      "score": 0.5390903949737549
+    }
+  ]
+}

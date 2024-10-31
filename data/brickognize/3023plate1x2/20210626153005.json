@@ -1,0 +1,28 @@
+{
+  "listing_id": "52e45c2f8323",
+  "bounding_box": {
+    "left": 237.53036499023438,
+    "upper": 425.0859375,
+    "right": 429.0095520019531,
+    "lower": 479.84271240234375,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6759474873542786
+  },
+  "items": [
+    {
+      "id": "3829c01",
+      "name": "Vehicle, Steering Stand 1 x 2 with Black Steering Wheel",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3829c01/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3829c01"
+        }
+      ],
+      "category": "Vehicle",
+      "type": "part",
+      "score": 0.7063385248184204
+    }
+  ]
+}

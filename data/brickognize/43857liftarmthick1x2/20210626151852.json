@@ -1,0 +1,112 @@
+{
+  "listing_id": "af346af4b6c8",
+  "bounding_box": {
+    "left": 232.39794921875,
+    "upper": 345.1080017089844,
+    "right": 422.6776123046875,
+    "lower": 479.9910583496094,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.7040610909461975
+  },
+  "items": [
+    {
+      "id": "43857",
+      "name": "Technic, Liftarm Thick 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/43857/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=43857"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.9007284641265869
+    },
+    {
+      "id": "32530",
+      "name": "Technic, Pin Connector Plate 1 x 2 x 1 2/3 with 2 Holes (Double on Top)",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32530/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32530"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.7042258381843567
+    },
+    {
+      "id": "44809",
+      "name": "Technic, Pin Connector Perpendicular 2 x 2 Bent",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/44809/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=44809"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.5648267269134521
+    },
+    {
+      "id": "60483",
+      "name": "Technic, Liftarm Thick 1 x 2 - Axle Hole",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/60483/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5544657111167908
+    },
+    {
+      "id": "32291",
+      "name": "Technic, Axle and Pin Connector Perpendicular Double",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32291/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32291"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.5479666590690613
+    },
+    {
+      "id": "63869",
+      "name": "Technic, Axle and Pin Connector Perpendicular Triple",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/63869/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=63869"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.5257840156555176
+    },
+    {
+      "id": "85940",
+      "name": "Technic, Liftarm, Modified Bar 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/85940/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=85940"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.5052226185798645
+    }
+  ]
+}

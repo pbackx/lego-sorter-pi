@@ -1,0 +1,13 @@
+{
+  "listing_id": "735e7ef08497",
+  "bounding_box": {
+    "left": 0.177703857421875,
+    "upper": 0.40692138671875,
+    "right": 640.0,
+    "lower": 477.42437744140625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6514263153076172
+  },
+  "items": []
+}

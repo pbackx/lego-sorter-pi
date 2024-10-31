@@ -1,0 +1,70 @@
+{
+  "listing_id": "5bb591451575",
+  "bounding_box": {
+    "left": 216.53102111816406,
+    "upper": 110.05574035644531,
+    "right": 309.20654296875,
+    "lower": 301.14752197265625,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.7029680609703064
+  },
+  "items": [
+    {
+      "id": "3023",
+      "name": "Plate 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.8418676257133484
+    },
+    {
+      "id": "3023old",
+      "name": "Plate 1 x 2 with Flat Bottom Pin",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023old/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023old"
+        }
+      ],
+      "category": "Plate",
+      "type": "part",
+      "score": 0.7963358163833618
+    },
+    {
+      "id": "15208",
+      "name": "Plate, Modified 1 x 2 with 3 Teeth",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/15208/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=15208"
+        }
+      ],
+      "category": "Plate, Modified",
+      "type": "part",
+      "score": 0.7713770270347595
+    },
+    {
+      "id": "3023pb02",
+      "name": "Plate 1 x 2 with Gold Pattern on Long Edge",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/3023pb02/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=3023pb02"
+        }
+      ],
+      "category": "Plate, Decorated",
+      "type": "part",
+      "score": 0.7448462843894958
+    }
+  ]
+}

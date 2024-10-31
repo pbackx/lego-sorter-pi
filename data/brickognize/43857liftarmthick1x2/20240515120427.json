@@ -1,0 +1,13 @@
+{
+  "listing_id": "8221ba399f6a",
+  "bounding_box": {
+    "left": 0.0,
+    "upper": 0.32470703125,
+    "right": 640.0,
+    "lower": 476.1169128417969,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.6365765929222107
+  },
+  "items": []
+}

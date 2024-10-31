@@ -309,7 +309,7 @@ Next we will check if Docker is correctly installed:
 
 Finally, we need to verify if Docker can access the GPU. Run the following command:
 
-    docker run --rm --gpus all tensorflow/tensorflow:2.16.1-gpu-jupyter nvidia-smi
+    docker run --rm --gpus all tensorflow/tensorflow:2.18.0-gpu-jupyter nvidia-smi
 
 As before, you should see your GPU listed. You will not see any processes running (as you may have seen when you
 initially ran `nvidia-smi`, because the container does not have access to the host's processes.

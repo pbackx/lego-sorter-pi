@@ -1,0 +1,56 @@
+{
+  "listing_id": "0b7ca9bdfac3",
+  "bounding_box": {
+    "left": 289.1979675292969,
+    "upper": 230.21835327148438,
+    "right": 389.77935791015625,
+    "lower": 424.1548767089844,
+    "image_width": 640.0,
+    "image_height": 480.0,
+    "score": 0.7033218741416931
+  },
+  "items": [
+    {
+      "id": "43857",
+      "name": "Technic, Liftarm Thick 1 x 2",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/43857/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=43857"
+        }
+      ],
+      "category": "Technic, Liftarm",
+      "type": "part",
+      "score": 0.9615061283111572
+    },
+    {
+      "id": "44809",
+      "name": "Technic, Pin Connector Perpendicular 2 x 2 Bent",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/44809/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=44809"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.7505884170532227
+    },
+    {
+      "id": "32175",
+      "name": "Technic, Pin Connector 3 x 3 with Axle and 3 Pin Holes",
+      "img_url": "https://storage.googleapis.com/brickognize-static/thumbnails-v2.6/part/32175/0.webp",
+      "external_sites": [
+        {
+          "name": "bricklink",
+          "url": "https://www.bricklink.com/v2/catalog/catalogitem.page?P=32175"
+        }
+      ],
+      "category": "Technic, Connector",
+      "type": "part",
+      "score": 0.6619590520858765
+    }
+  ]
+}
