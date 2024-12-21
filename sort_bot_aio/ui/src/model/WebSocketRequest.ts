@@ -1,3 +1,3 @@
 import { z } from "zod"
 
-export default z.object({ "streamCamera": z.boolean().describe("Stream the camera to the client or not").optional() })
+export default z.object({ "streamCamera": z.boolean().describe("Stream the camera to the client or not").optional(), "bucket": z.number().int().describe("Move the given bucket under the belt").optional(), "clearBelt": z.boolean().describe("Request to clear the camera belt").optional(), "makeReferenceImage": z.boolean().describe("Make a new reference image, should be done when the belt is empty and is used to detect bricks in front of the camera.").optional() })

@@ -52,7 +52,9 @@ function Camera() {
             </CardTitle>
         </CardHeader>
         <CardContent>
-            <canvas ref={canvasRef} width="640" height="480"></canvas>
+            <div className="w-full overflow-scroll">
+                <canvas ref={canvasRef} width="640" height="480"></canvas>
+            </div>
         </CardContent>
     </Card>
 }

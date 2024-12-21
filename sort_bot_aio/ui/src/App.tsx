@@ -1,17 +1,21 @@
 import './App.css'
 import Camera from './components/Camera';
-import { Button } from './components/ui/button';
+import Controls from './components/Controls'
 import { WebSocketProvider } from './components/WebSocketContext';
 
 function App() {
   return (
     <WebSocketProvider>
-      <div>
-        <Camera />
-      </div>
-      <div>
-        <h1>Controls</h1>
-        <Button className='bg-green-500'>Start</Button>
+      <div className='grid grid-flow-row grid-cols-2 grid-rows-2 gap-2'>
+        <div>
+          <Camera />
+        </div>
+        <div>
+          <h1>TODO filtered view</h1>
+        </div>
+        <div>
+          <Controls />
+        </div>
       </div>
     </WebSocketProvider>
   )
