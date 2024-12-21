@@ -7,6 +7,18 @@
         "streamCamera": {
             "type": "boolean",
             "description": "Stream the camera to the client or not"
+        },
+        "bucket": {
+            "type": "integer",
+            "description": "Move the given bucket under the belt"
+        },
+        "clearBelt": {
+            "type": "boolean",
+            "description": "Request to clear the camera belt"
+        },
+        "makeReferenceImage": {
+            "type": "boolean",
+            "description": "Make a new reference image, should be done when the belt is empty and is used to detect bricks in front of the camera."
         }
     }
 }
