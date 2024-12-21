@@ -10,7 +10,24 @@ For development, run this as two servers:
 Communication on the websocket is governed by the schema defined in the schema folder. This schema is converted
 into Pydantic and TypeScript objects that are used by respecitevly the API server and the UI frontend.
 
-TODO: explain how to generate them
+For Pydantic:
+
+    cd api
+    mkdir model
+    python3 -m venv --system-site-packages .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt -r requirements.dev.txt
+    datamodel-codegen --input ../schema/websocket/request.json --input-file-type jsonschema --output model/websocket_request.py
+    datamodel-codegen --input ../schema/websocket/response.json --input-file-type jsonschema --output model/websocket_response.py
+
+For TypeScript:
+
+    cd ui
+    mkdir src/model
+    npm install
+    npx json-schema-to-zod -i ../schema/websocket/request.json -o src/model/WebSocketRequest.ts
+    npx json-schema-to-zod -i ../schema/websocket/response.json -o src/model/WebSocketResponse.ts
+
 
 # API server
 

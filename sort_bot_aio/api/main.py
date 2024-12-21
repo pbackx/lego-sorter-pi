@@ -3,6 +3,7 @@ from fastapi import Depends, FastAPI, WebSocket
 from fastapi.responses import HTMLResponse
 from starlette.websockets import WebSocketDisconnect
 from camera import camera_lifespan, CameraManger, get_camera_manager
+from model.websocket_request import WebSocketRequest
 
 
 app = FastAPI(lifespan=camera_lifespan)
@@ -15,7 +16,8 @@ async def video_stream(websocket: WebSocket, camera_manager: CameraManger = Depe
     try:    
         while True:
             data = await websocket.receive_json()
-            stream_camera = data['streamCamera']
+            request = WebSocketRequest(**data)
+            stream_camera = request.streamCamera
 
             if stream_camera:
                 camera_manager.add_listener(websocket)

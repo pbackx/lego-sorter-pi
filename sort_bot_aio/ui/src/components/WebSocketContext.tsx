@@ -1,23 +1,16 @@
+import { WebSocketRequestType, WebSocketResponseType } from '@/model';
 import { createContext, useContext, ReactNode } from 'react';
 import useWebSocket from 'react-use-websocket';
 
-export interface WebSocketResponse {
-    image?: string
-}
-
-export interface WebSocketRequest {
-    streamCamera?: boolean
-}
-
 interface WebSocketContextType {
-  lastJsonMessage: WebSocketResponse | null;
-  sendJsonMessage: (message: WebSocketRequest) => void;
+  lastJsonMessage: WebSocketResponseType | null;
+  sendJsonMessage: (message: WebSocketRequestType) => void;
 }
 
 const WebSocketContext = createContext<WebSocketContextType | null>(null);
 
 export function WebSocketProvider({ children }: { children: ReactNode }) {
-    const { lastJsonMessage, sendJsonMessage } = useWebSocket<WebSocketResponse>('ws://localhost:8000/stream', {
+    const { lastJsonMessage, sendJsonMessage } = useWebSocket<WebSocketResponseType>('ws://localhost:8000/stream', {
         shouldReconnect: () => true
     });
 

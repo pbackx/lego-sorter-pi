@@ -7,6 +7,8 @@ from picamera2 import Picamera2, Preview
 import time
 import traceback
 
+from model.websocket_response import WebSocketResponse
+
 picam2: Picamera2 = None
 active_connections: list[WebSocket] = []
 
@@ -39,9 +41,10 @@ async def send_camera():
             img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             img_bytes = bytes(cv2.imencode('.jpg', img_rgb)[1])
             img_encoded = base64.b64encode(img_bytes).decode('ascii')
+            websocket_response = WebSocketResponse(image=img_encoded)
             
             for websocket in active_connections:
-                await websocket.send_json({"image": img_encoded})
+                await websocket.send_json(websocket_response.model_dump())
             await asyncio.sleep(0.03)  # 30 FPS
         except asyncio.CancelledError:
             return
