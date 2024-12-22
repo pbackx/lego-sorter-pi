@@ -7,6 +7,10 @@
         "image": {
             "type": "string",
             "description": "Base64 encoded image"
+        },
+        "referenceImage": {
+            "type": "string",
+            "description": "Base64 encoded image of the empty belt that is used for detecting bricks"
         }
     }
 }

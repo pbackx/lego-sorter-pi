@@ -1,4 +1,5 @@
 import './App.css'
+import BrickDetector from './components/BrickDetector';
 import Camera from './components/Camera';
 import Controls from './components/Controls'
 import { WebSocketProvider } from './components/WebSocketContext';
@@ -11,7 +12,7 @@ function App() {
           <Camera />
         </div>
         <div>
-          <h1>TODO filtered view</h1>
+          <BrickDetector />
         </div>
         <div>
           <Controls />

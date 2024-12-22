@@ -1,5 +1,4 @@
 import asyncio
-import base64
 from contextlib import asynccontextmanager
 import cv2
 from fastapi import FastAPI, WebSocket
@@ -10,6 +9,7 @@ from typing import Awaitable, Callable
 import numpy as np
 
 from model.websocket_response import WebSocketResponse
+from .tools import base64_encode_jpg
 
 CameraListener = Callable[[np.ndarray], Awaitable]
 
@@ -58,9 +58,7 @@ async def send_camera():
 
 def websocket_listener(websocket: WebSocket) -> CameraListener:
     async def listener(img: np.ndarray):
-        img_bytes = bytes(cv2.imencode('.jpg', img)[1])
-        img_encoded = base64.b64encode(img_bytes).decode('ascii')
-        websocket_response = WebSocketResponse(image=img_encoded)
+        websocket_response = WebSocketResponse(image=base64_encode_jpg(img))
         await websocket.send_json(websocket_response.model_dump())
     return listener
 
