@@ -24,6 +24,22 @@ async def video_stream(
 
     await websocket.accept()
 
+    async def ref_image_listener(ref_image: np.ndarray):
+        try:
+            websocket_response = WebSocketResponse(referenceImage=base64_encode_jpg(ref_image))
+            await websocket.send_json(websocket_response.model_dump())
+        except:
+            print("Error sending ref image")
+            traceback.print_exc()
+    
+    async def threshold_image_listener(image: np.ndarray):
+        try:
+            websocket_response = WebSocketResponse(thresholdImage=base64_encode_jpg(image))
+            await websocket.send_json(websocket_response.model_dump())
+        except:
+            print("Error sending threshold image")
+            traceback.print_exc()
+
     try:    
         while True:
             data = await websocket.receive_json()
@@ -44,16 +60,16 @@ async def video_stream(
 
             if request.makeReferenceImage:
                 print("Creating new reference image")
+                ref_img = await brick_detector.make_new_reference_image()
+                await ref_image_listener(ref_img)
 
-                async def listener(ref_image: np.ndarray):
-                    try:
-                        websocket_response = WebSocketResponse(referenceImage=base64_encode_jpg(ref_image))
-                        await websocket.send_json(websocket_response.model_dump())
-                    except:
-                        print("Error sending ref image")
-                        traceback.print_exc()
+            if request.nextBrick:
+                print("Next brick")
+                await brick_detector.next_brick(ref_image_listener, threshold_image_listener)
 
-                brick_detector.make_new_reference_image(listener)
+            if request.stop:
+                brick_detector.stop()
+                motor_control.stop_all()
 
 
     except WebSocketDisconnect:

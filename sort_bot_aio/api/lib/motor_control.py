@@ -27,5 +27,5 @@ class MotorControl:
 
 _motor_control_instance = MotorControl()
 
-async def get_motor_control() -> MotorControl:
+def get_motor_control() -> MotorControl:
     return _motor_control_instance

@@ -92,6 +92,15 @@ class CameraManager:
                 self.camera_send_task.cancel()
                 self.camera_send_task = None
     
+    async def take_single_picture(self) -> np.ndarray:
+        future = asyncio.Future()
+        async def listener(image: np.ndarray):
+            if not future.done():
+                future.set_result(image)
+                self.remove_listener(listener)
+        self.add_listener(listener)
+        return await future
+    
 
 
 _camera_manager_instance = CameraManager()

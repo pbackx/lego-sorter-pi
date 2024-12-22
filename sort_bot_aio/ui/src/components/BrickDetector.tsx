@@ -3,24 +3,31 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { useWebSocketContext } from "./WebSocketContext"
 
 export default function BrickDetector() {
-    const canvasRef = useRef<HTMLCanvasElement|null>(null)
+    const refCanvasRef = useRef<HTMLCanvasElement|null>(null)
+    const threshCanvasRef = useRef<HTMLCanvasElement|null>(null)
     const {lastJsonMessage} = useWebSocketContext()
 
     useEffect(() => {
-        if (!canvasRef) {
-            return
-        }
-        const canvas = canvasRef.current
-        if (!canvas) {
-            return
-        }
-        const context = canvas.getContext('2d')
-        if (!context) {
+        if (!refCanvasRef || !threshCanvasRef) {
             return
         }
         if (lastJsonMessage) {
+            let blob: Blob|null = null
+            let canvas: HTMLCanvasElement|null = null
+
             if (lastJsonMessage.referenceImage) {
-                const blob = new Blob([Uint8Array.from(atob(lastJsonMessage.referenceImage), (c) => c.charCodeAt(0))])
+                blob = new Blob([Uint8Array.from(atob(lastJsonMessage.referenceImage), (c) => c.charCodeAt(0))])
+                canvas = refCanvasRef.current
+            } else if (lastJsonMessage.thresholdImage) {
+                blob = new Blob([Uint8Array.from(atob(lastJsonMessage.thresholdImage), (c) => c.charCodeAt(0))])
+                canvas = threshCanvasRef.current
+            }
+
+            if (blob && canvas) {
+                const context = canvas.getContext('2d')
+                if (!context) {
+                    return
+                }        
                 const img = new Image()
                 img.src = URL.createObjectURL(blob)
                 img.onload = () => {
@@ -30,7 +37,7 @@ export default function BrickDetector() {
             }
         }
 
-    }, [canvasRef, lastJsonMessage])
+    }, [refCanvasRef, lastJsonMessage])
 
     return <Card>
         <CardHeader>
@@ -43,7 +50,10 @@ export default function BrickDetector() {
         </CardHeader>
         <CardContent>
             <div className="w-full overflow-scroll">
-                <canvas ref={canvasRef} width="640" height="340"></canvas>
+                <canvas ref={refCanvasRef} width="640" height="340"></canvas>
+            </div>
+            <div className="w-full overflow-scroll">
+                <canvas ref={threshCanvasRef} width="640" height="340"></canvas>
             </div>
         </CardContent>
     </Card>

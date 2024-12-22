@@ -19,7 +19,14 @@ export default function Controls() {
         </CardTitle>
     </CardHeader>
     <CardContent className="flex flex-col gap-2">
-        <Button className='bg-green-500'>Start</Button>
+        <div className="flex flexrow gap-1">
+            <Button className='bg-green-500'>Start</Button>
+            <Button 
+                className='bg-red-500'
+                onClick={() => sendJsonMessage({stop: true})}>
+                Stop
+            </Button>
+        </div>
         <h1>Bucket</h1>
         <div className="flex flexrow gap-1">
 
@@ -28,14 +35,22 @@ export default function Controls() {
             ))}
             
         </div>
-        <Button 
-            onClick={() => sendJsonMessage({clearBelt: true})}>
-            Clear belt
-        </Button>
-        <Button 
-            onClick={() => sendJsonMessage({makeReferenceImage: true})}>
-            Take new reference image
-        </Button>
+        <div className="flex flexrow gap-1">
+            <Button 
+                onClick={() => sendJsonMessage({clearBelt: true})}>
+                Clear belt
+            </Button>
+        </div>
+        <div className="flex flexrow gap-1">
+            <Button 
+                onClick={() => sendJsonMessage({makeReferenceImage: true})}>
+                Take new reference image
+            </Button>
+            <Button 
+                onClick={() => sendJsonMessage({nextBrick: true})}>
+                Move to next brick
+            </Button>
+        </div>
     </CardContent>
 </Card>
 }

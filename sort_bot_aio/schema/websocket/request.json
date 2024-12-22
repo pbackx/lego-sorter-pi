@@ -19,6 +19,14 @@
         "makeReferenceImage": {
             "type": "boolean",
             "description": "Make a new reference image, should be done when the belt is empty and is used to detect bricks in front of the camera."
+        },
+        "nextBrick": {
+            "type": "boolean",
+            "description": "Move the next brick in front of the camera"
+        },
+        "stop": {
+            "type": "boolean",
+            "description": "Stop the machine"
         }
     }
 }
