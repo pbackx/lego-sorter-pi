@@ -15,6 +15,10 @@
         "thresholdImage": {
             "type": "string",
             "description": "Base64 encoded image of the threshold values for detecting bricks"
+        },
+        "prediction": {
+            "type": "string",
+            "description": "Name of the predicted brick"
         }
     }
 }

@@ -10,10 +10,12 @@ import numpy as np
 
 from model.websocket_response import WebSocketResponse
 from lib.tools import base64_encode_jpg
+from lib.predict import BrickognizeModelPrediction
 
 
 app = FastAPI(lifespan=camera_lifespan)
 
+predict_method = BrickognizeModelPrediction()
 
 @app.websocket("/stream")
 async def video_stream(
@@ -65,11 +67,23 @@ async def video_stream(
 
             if request.nextBrick:
                 print("Next brick")
-                await brick_detector.next_brick(ref_image_listener, threshold_image_listener)
+                filename = await brick_detector.next_brick(ref_image_listener, threshold_image_listener)
+                print(f"Stored in {filename}")
+
+            if request.predictOne:
+                print("Predicting one brick")
+                filename = await brick_detector.next_brick(ref_image_listener, threshold_image_listener)
+                prediction = predict_method(filename)
+                websocket_response = WebSocketResponse(prediction=prediction["prediction"])
+                await websocket.send_json(websocket_response.model_dump())
 
             if request.stop:
                 brick_detector.stop()
                 motor_control.stop_all()
+
+            if request.start:
+                #TODO
+                pass
 
 
     except WebSocketDisconnect:

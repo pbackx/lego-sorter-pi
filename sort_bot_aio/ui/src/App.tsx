@@ -2,6 +2,7 @@ import './App.css'
 import BrickDetector from './components/BrickDetector';
 import Camera from './components/Camera';
 import Controls from './components/Controls'
+import Prediction from './components/Prediction';
 import { WebSocketProvider } from './components/WebSocketContext';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div>
           <Controls />
+        </div>
+        <div>
+          <Prediction />
         </div>
       </div>
     </WebSocketProvider>

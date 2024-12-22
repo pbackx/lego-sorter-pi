@@ -45,7 +45,7 @@ async def send_camera():
             img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
             for listener in active_listeners:
-                await listener(img_rgb)
+                asyncio.create_task(listener(img_rgb))
 
             await asyncio.sleep(0.03)  # 30 FPS
         except asyncio.CancelledError:
@@ -58,8 +58,11 @@ async def send_camera():
 
 def websocket_listener(websocket: WebSocket) -> CameraListener:
     async def listener(img: np.ndarray):
-        websocket_response = WebSocketResponse(image=base64_encode_jpg(img))
-        await websocket.send_json(websocket_response.model_dump())
+        try:
+            websocket_response = WebSocketResponse(image=base64_encode_jpg(img))
+            await websocket.send_json(websocket_response.model_dump())
+        except:
+            print("Ignoring exception while sending image to websocket")
     return listener
 
 

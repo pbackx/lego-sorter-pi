@@ -27,6 +27,14 @@
         "stop": {
             "type": "boolean",
             "description": "Stop the machine"
+        },
+        "start": {
+            "type": "boolean",
+            "description": "Start the machine"
+        },
+        "predictOne": {
+            "type": "boolean",
+            "description": "Move one brick in front of the camera and run the prediction"
         }
     }
 }
