@@ -1,3 +1,3 @@
 import { z } from "zod"
 
-export default z.object({ "image": z.string().describe("Base64 encoded image").optional(), "referenceImage": z.string().describe("Base64 encoded image of the empty belt that is used for detecting bricks").optional(), "thresholdImage": z.string().describe("Base64 encoded image of the threshold values for detecting bricks").optional(), "prediction": z.string().describe("Name of the predicted brick").optional() })
+export default z.object({ "image": z.string().describe("Base64 encoded image").optional(), "referenceImage": z.string().describe("Base64 encoded image of the empty belt that is used for detecting bricks").optional(), "thresholdImage": z.string().describe("Base64 encoded image of the threshold values for detecting bricks").optional(), "prediction": z.string().describe("Name of the predicted brick").optional(), "machineRunning": z.boolean().describe("Indicate whether or not the machine is currently executing a command") })

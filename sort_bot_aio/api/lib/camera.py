@@ -56,25 +56,9 @@ async def send_camera():
             stopped = True
 
 
-def websocket_listener(websocket: WebSocket) -> CameraListener:
-    async def listener(img: np.ndarray):
-        try:
-            websocket_response = WebSocketResponse(image=base64_encode_jpg(img))
-            await websocket.send_json(websocket_response.model_dump())
-        except:
-            print("Ignoring exception while sending image to websocket")
-    return listener
-
-
 class CameraManager:
     def __init__(self):
         self.camera_send_task: asyncio.Task = None
-        self.websocket_listeners: dict[WebSocket, CameraListener] = {}
-    
-    def add_websocket_listener(self, websocket: WebSocket):
-        new_listener = websocket_listener(websocket)
-        self.websocket_listeners[websocket] = new_listener
-        self.add_listener(new_listener)
     
     def add_listener(self, listener: CameraListener) -> None:
         active_listeners.append(listener)
@@ -82,11 +66,6 @@ class CameraManager:
             print("Starting camera sender")
             self.camera_send_task = asyncio.create_task(send_camera())
     
-    def remove_websocket_listener(self, websocket: WebSocket):
-        if websocket in self.websocket_listeners:
-            listener = self.websocket_listeners.pop(websocket)
-            self.remove_listener(listener)
-
     def remove_listener(self, listener: CameraListener) -> None:
         if listener in active_listeners:
             active_listeners.remove(listener)
