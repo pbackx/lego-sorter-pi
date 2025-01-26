@@ -35,6 +35,27 @@
         "predictOne": {
             "type": "boolean",
             "description": "Move one brick in front of the camera and run the prediction"
+        },
+        "bucketMapping": {
+            "type": "object",
+            "description": "Mapping of bucket numbers to brick types that should go in that bucket",
+            "properties": {
+                "default": {
+                    "type": "integer",
+                    "description": "Default bucket number for unrecognized bricks"
+                },
+                "mapping": {
+                    "type": "object",
+                    "description": "Mapping of bucket numbers to brick types",
+                    "additionalProperties": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "required": ["default", "mapping"]
         }
     }
 }

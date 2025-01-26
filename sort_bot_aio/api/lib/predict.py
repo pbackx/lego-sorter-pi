@@ -5,6 +5,7 @@ from typing import Protocol, TypedDict
 class PredictionResult(TypedDict):
     prediction: str
     confidence: float
+    image_url: str
 
 def filename(filepath: str) -> str:
     return filepath[filepath.rindex('/')+1:]
@@ -48,14 +49,17 @@ class BrickognizeModelPrediction(ModelPrediction):
                 json.dump(response.json(), f, indent=4)
 
             prediction = self._brickognize_prediction(response.json())
+            print(prediction)
 
             if not prediction:
                 return {
                     'prediction': 'unknown',
-                    'confidence': 0
+                    'image_url': '',
+                    'confidence': 0,
                 }
 
             return {
                 'confidence': prediction["score"],
-                'prediction': prediction["id"]
+                'prediction': prediction["id"],
+                'image_url': prediction["img_url"]
             }

@@ -20,6 +20,10 @@
             "type": "string",
             "description": "Name of the predicted brick"
         },
+        "prediction_url": {
+            "type": "string",
+            "description": "URL to an image, if available, of the predicted brick"
+        },
         "machineRunning": {
             "type": "boolean",
             "description": "Indicate whether or not the machine is currently executing a command"

@@ -136,7 +136,11 @@ async def video_stream(
                 filename = await brick_detector.next_brick(ref_image_listener, threshold_image_listener)
                 prediction = predict_method(filename)
                 machine_running = False
-                await send_status(WebSocketResponse(prediction=prediction["prediction"], machineRunning=machine_running))
+                await send_status(WebSocketResponse(
+                    prediction=prediction["prediction"], 
+                    prediction_url=prediction["image_url"], 
+                    machineRunning=machine_running
+                    ))
 
             if request.stop:
                 if machine_task:

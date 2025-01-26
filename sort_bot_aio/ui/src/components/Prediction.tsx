@@ -4,11 +4,13 @@ import { useWebSocketContext } from "./WebSocketContext";
 
 export default function Prediction() {
     const [lastPrediction, setLastPrediction] = useState("none")
+    const [lastPredictionImage, setLastPredictionImage] = useState<string|undefined>(undefined)
     const { lastJsonMessage } = useWebSocketContext()
 
     useEffect(() => {
         if (lastJsonMessage?.prediction) {
             setLastPrediction(lastJsonMessage.prediction)
+            setLastPredictionImage(lastJsonMessage.prediction_url)
         }
     }, [lastJsonMessage])
 
@@ -20,6 +22,9 @@ export default function Prediction() {
         </CardHeader>
         <CardContent className="flex flex-col gap-2">
             <p>Last prediction: {lastPrediction}</p>
+            {lastPredictionImage && 
+                <img src={lastPredictionImage} width="100" height="100" />
+            }
         </CardContent>
     </Card>
 }
