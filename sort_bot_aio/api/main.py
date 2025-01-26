@@ -22,6 +22,7 @@ bucket_mapping = {
   "2780": 0,
   "4459": 0,
   "3673": 0,
+  "3023": 5,
 }
 default_bucket = 1
 
@@ -44,6 +45,11 @@ async def video_stream(
                 #TODO should put this in a thread so it can be aborted right away
                 filename = await brick_detector.next_brick(ref_image_listener, threshold_image_listener)
                 prediction = predict_method(filename)
+                await send_status(WebSocketResponse(
+                    prediction=prediction["prediction"], 
+                    prediction_url=prediction["image_url"], 
+                    machineRunning=machine_running
+                ))
                 predicted_confidence = prediction["confidence"]
                 predicted_brick_type = str(prediction["prediction"])
                 bucket = bucket_mapping[predicted_brick_type] if predicted_brick_type in bucket_mapping and predicted_confidence > 0.85 else default_bucket
@@ -153,6 +159,17 @@ async def video_stream(
             if request.start:
                 machine_running = True
                 machine_task = asyncio.create_task(run_machine())
+
+            if request.bucketMapping:
+                default_bucket = request.bucketMapping.default
+                print(f'Updated default bucket to {default_bucket}')
+                bucket_mapping.clear()
+                for bucket_num, brick_types in request.bucketMapping.mapping.items():
+                    for brick_type in brick_types:
+                        if not brick_type:
+                            continue
+                        bucket_mapping[brick_type] = int(bucket_num)
+                print(f'Updated bucket mapping to {bucket_mapping}')
 
 
     except WebSocketDisconnect:
